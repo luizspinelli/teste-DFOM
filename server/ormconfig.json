@@ -1,0 +1,14 @@
+{
+    "type": "mongodb",
+    "url": "mongodb+srv://luiz:VzCfbFkNRJirFxuh@teste-dfcom.oczjd.mongodb.net/teste-dfcom?retryWrites=true&w=majority",
+    "port": 27017,
+    "useUnifiedTopology": true,
+    "useNewUrlParser": true,
+    "synchronize": true,
+    "logging": true,
+    "ssl": true,
+    "authSource": "admin",
+    "entities": [
+        "./src/modules/**/infra/typeorm/entities/*.ts"
+    ]
+}
